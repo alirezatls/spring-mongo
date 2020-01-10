@@ -1,0 +1,35 @@
+version: '3'
+services:
+  spring-mongo:
+    container_name: spring-mongo-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: spring-mongo
+    ports:
+      - 8081:8080
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb://mongo-container:27017
+      SPRING_DATA_MONGODB_DATABASE: spring-mongo
+    depends_on:
+      - mongo
+    networks:
+      - spring-mongo-network
+  mongo:
+    container_name: mongo-container
+    image: mongo
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_DATABASE: spring-mongo
+    volumes:
+      - spring-mongo-volume:/data/db
+    networks:
+      - spring-mongo-network
+
+networks:
+  spring-mongo-network:
+    driver: bridge
+
+volumes:
+  spring-mongo-volume:

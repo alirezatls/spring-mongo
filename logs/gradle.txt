@@ -1,0 +1,64 @@
+> Task :clean
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :bootJar
+> Task :jar SKIPPED
+> Task :assemble
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+2020-01-10 19:37:59.346  INFO 7421 --- [       Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 19:37:59.349  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.349+0330 I -        [conn1] end connection 127.0.0.1:50878 (1 connection now open)
+2020-01-10 19:37:59.350  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.350+0330 I NETWORK  [thread1] connection accepted from 127.0.0.1:50880 #2 (1 connection now open)
+2020-01-10 19:37:59.350  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.350+0330 I COMMAND  [conn2] terminating, shutdown command received
+2020-01-10 19:37:59.350  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.350+0330 I NETWORK  [conn2] shutdown: going to close listening sockets...
+2020-01-10 19:37:59.350  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.350+0330 I NETWORK  [conn2] closing listening socket: 7
+2020-01-10 19:37:59.350  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.350+0330 I NETWORK  [conn2] closing listening socket: 8
+2020-01-10 19:37:59.350  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.350+0330 I NETWORK  [conn2] removing socket file: /tmp/mongodb-36289.sock
+2020-01-10 19:37:59.350  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.350+0330 I NETWORK  [conn2] shutdown: going to flush diaglog...
+2020-01-10 19:37:59.350  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.350+0330 I FTDC     [conn2] Shutting down full-time diagnostic data capture
+2020-01-10 19:37:59.351  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.351+0330 I STORAGE  [conn2] WiredTigerKVEngine shutting down
+2020-01-10 19:37:59.428  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.428+0330 I STORAGE  [conn2] shutdown: removing fs lock...
+2020-01-10 19:37:59.429  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.428+0330 I CONTROL  [conn2] now exiting
+2020-01-10 19:37:59.429  INFO 7421 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:37:59.428+0330 I CONTROL  [conn2] shutting down with code:0
+
+> Task :check
+> Task :build
+
+BUILD SUCCESSFUL in 5s
+6 actionable tasks: 6 executed
+> Task :clean
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :bootJar
+> Task :jar SKIPPED
+> Task :assemble
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+2020-01-10 19:39:12.864  INFO 7617 --- [       Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 19:39:12.866  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.866+0330 I -        [conn1] end connection 127.0.0.1:46414 (1 connection now open)
+2020-01-10 19:39:12.867  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.867+0330 I NETWORK  [thread1] connection accepted from 127.0.0.1:46416 #2 (1 connection now open)
+2020-01-10 19:39:12.867  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.867+0330 I COMMAND  [conn2] terminating, shutdown command received
+2020-01-10 19:39:12.868  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.867+0330 I NETWORK  [conn2] shutdown: going to close listening sockets...
+2020-01-10 19:39:12.868  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.867+0330 I NETWORK  [conn2] closing listening socket: 7
+2020-01-10 19:39:12.868  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.867+0330 I NETWORK  [conn2] closing listening socket: 8
+2020-01-10 19:39:12.868  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.867+0330 I NETWORK  [conn2] removing socket file: /tmp/mongodb-43577.sock
+2020-01-10 19:39:12.868  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.868+0330 I NETWORK  [conn2] shutdown: going to flush diaglog...
+2020-01-10 19:39:12.868  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.868+0330 I FTDC     [conn2] Shutting down full-time diagnostic data capture
+2020-01-10 19:39:12.869  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.868+0330 I STORAGE  [conn2] WiredTigerKVEngine shutting down
+2020-01-10 19:39:12.950  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.950+0330 I STORAGE  [conn2] shutdown: removing fs lock...
+2020-01-10 19:39:12.950  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.950+0330 I CONTROL  [conn2] now exiting
+2020-01-10 19:39:12.950  INFO 7617 --- [       Thread-4] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2020-01-10T19:39:12.950+0330 I CONTROL  [conn2] shutting down with code:0
+
+> Task :check
+> Task :build
+
+BUILD SUCCESSFUL in 5s
+6 actionable tasks: 6 executed
